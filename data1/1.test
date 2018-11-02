@@ -1,0 +1,13 @@
+The DT det sashimi O
+sashimi NN nsubj fresh B-AS
+is VBZ cop fresh O
+always RB advmod fresh O
+fresh JJ ROOT ROOT O
+and CC cc fresh O
+the DT det rolls O
+rolls NNS nsubj innovative B-AS
+are VBP cop innovative O
+innovative JJ conj fresh O
+and CC cc innovative O
+delicious JJ conj innovative O
+. . punct fresh O
