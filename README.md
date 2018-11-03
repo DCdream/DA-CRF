@@ -1,4 +1,5 @@
 # DA-CRF
+* Framework: Bi-lstm-Attention-CRF
 # installation
 * python >= 3.5.2    
   tensorflow >= 1.2.0    
