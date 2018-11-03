@@ -11,3 +11,51 @@ innovative JJ conj fresh O
 and CC cc innovative O
 delicious JJ conj innovative O
 . . punct fresh O
+
+Boot NN compound time B-AS
+time NN nsubj super I-AS
+is VBZ cop super O
+super JJ ROOT ROOT O
+fast RB advmod super O
+, , punct super O
+around RB advmod anywhere O
+anywhere RB advmod super O
+from IN case seconds O
+35 CD nummod seconds O
+seconds NNS nmod anywhere O
+to TO case minute O
+1 CD nummod minute O
+minute NN nmod seconds O
+. . punct super O
+
+tech NN compound support B-AS
+support NN nsubj fix I-AS
+would MD aux fix O
+not RB neg fix O
+fix VB ROOT ROOT O
+the DT det problem O
+problem NN dobj fix O
+unless IN mark bought O
+I PRP nsubj bought O
+bought VBD advcl fix O
+your PRP$ nmod:poss plan O
+plan NN dobj bought O
+for IN case 150 O
+$ $ dep 150 O
+150 CD nmod bought O
+plus CC advmod 150 O
+. . punct fix O
+
+but CC ROOT ROOT O
+in IN mark resume O
+resume VB root but O
+this DT det rocks O
+computer NN compound rocks O
+rocks NNS dobj resume O
+! . punct resume O
+
+Set VB csubj easy B-AS
+up RP compound:prt Set I-AS
+was VBD cop easy O
+easy JJ ROOT ROOT O
+. . punct easy O
