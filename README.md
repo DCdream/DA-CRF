@@ -9,4 +9,5 @@
 
 # Other
 * If you want some other parameter settings, you can change them on main.py    
-  This project also implements a static attention, see model.py, if you wanna use it, please manually modify on model.py
+  This project also implements a static attention, see model.py, if you wanna use it, please manually modify on model.py    
+  This implementation also suports Chinese, you just feed data like the data on directery "data1" 
