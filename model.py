@@ -198,7 +198,7 @@ class Model(object):
                # dep_embedding.append(tf.nn.embedding_lookup(self.char_lookup, head_id_inputs))
                 # shape = [batch_size, max_len, dep_dim]
                 #print(self.dependency_dim)
-               # embedding.append(tf.nn.embedding_lookup(self.char_lookup, head_id_inputs))
+                embedding.append(tf.nn.embedding_lookup(self.char_lookup, head_id_inputs))
                 #print(len(embedding))
             embed = tf.concat(embedding, axis=-1)
            # dep_embeded = tf.concat(dep_embedding, axis=-1)
