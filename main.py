@@ -257,7 +257,7 @@ def evaluate_line():
             # except Exception as e:
             #     logger.info(e)
 
-                line = input("请输入测试句子:")
+                line = input("请输入测试句子: 未完待续")
                 result = model.evaluate_line(sess, input_from_line(line, char_to_id), id_to_tag)
                 print(result)
 
