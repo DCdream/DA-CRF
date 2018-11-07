@@ -55,9 +55,9 @@ flags.DEFINE_string("script",       "conlleval",    "evaluation script")
 flags.DEFINE_string("result_path",  "result",       "Path for results")
 flags.DEFINE_string("emb_file",     "glove.6B.100d.txt", "Path for pre_trained embedding")
 flags.DEFINE_string("lexcion_file", os.path.join("lexcion", "restaurant15_dict.csv"), "Path for lexcion file")
-flags.DEFINE_string("train_file",   os.path.join("data1", "restaurant16_train_POS_DEP_BIO_data.csv"),  "Path for train data")
-flags.DEFINE_string("dev_file",     os.path.join("data1", "restaurant16_test_POS_DEP_BIO_data.csv"),    "Path for dev data")
-flags.DEFINE_string("test_file",    os.path.join("data1", "restaurant16_test_POS_DEP_BIO_data.csv"),   "Path for test data")
+flags.DEFINE_string("train_file",   os.path.join("data1", "laptop_train_POS_DEP_BIO_data.csv"),  "Path for train data")
+flags.DEFINE_string("dev_file",     os.path.join("data1", "laptop_test_POS_DEP_BIO_data.csv"),    "Path for dev data")
+flags.DEFINE_string("test_file",    os.path.join("data1", "laptop_test_POS_DEP_BIO_data.csv"),   "Path for test data")
 
 
 FLAGS = tf.app.flags.FLAGS
